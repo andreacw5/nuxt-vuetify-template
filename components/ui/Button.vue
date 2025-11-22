@@ -10,6 +10,8 @@
     :disabled="disabled"
     :block="block"
     :class="customClass"
+    :href="href"
+    :target="target"
     @click="handleClick"
   >
     <slot />
@@ -28,6 +30,8 @@ interface Props {
   disabled?: boolean;
   block?: boolean;
   customClass?: string;
+  href?: string;
+  target?: string;
 }
 
 withDefaults(defineProps<Props>(), {
@@ -41,6 +45,8 @@ withDefaults(defineProps<Props>(), {
   disabled: false,
   block: false,
   customClass: '',
+  href: undefined,
+  target: undefined,
 });
 
 const emit = defineEmits<{

@@ -121,8 +121,12 @@ const handleError = () => {
 };
 
 const goBack = () => {
-  if (window.history.length > 1) {
-    window.history.back();
+  if (process.client) {
+    if (window.history.length > 1) {
+      window.history.back();
+    } else {
+      navigateTo('/');
+    }
   } else {
     navigateTo('/');
   }

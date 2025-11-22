@@ -40,18 +40,7 @@
       />
     </v-list>
 
-    <template #append>
-      <div class="pa-2">
-        <v-btn
-          block
-          variant="outlined"
-          :prepend-icon="rail ? '' : 'mdi-logout'"
-          @click="handleLogout"
-        >
-          {{ rail ? '' : 'Logout' }}
-        </v-btn>
-      </div>
-    </template>
+
   </v-navigation-drawer>
 </template>
 
@@ -92,10 +81,5 @@ const drawerModel = computed({
 
 const handleRailUpdate = (value: boolean) => {
   rail.value = value;
-};
-
-const handleLogout = () => {
-  // Implement logout logic here
-  console.log('Logout clicked');
 };
 </script>
