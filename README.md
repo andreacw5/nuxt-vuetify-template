@@ -13,8 +13,9 @@ This project is a minimal Nuxt 3 starter template with Vuetify. It is a good sta
 ## Getting Started
 Follow these instructions to set up the project on your local machine for development and testing purposes.
 - Clone the repository to your local machine: `git clone https://github.com/andreacw5/nuxt3-vuetify.git`
-- Install dependencies: `yarn install`
-- Start the application in development: `yarn dev`
+- Install pnpm if not already installed: `npm install -g pnpm`
+- Install dependencies: `pnpm install`
+- Start the application in development: `pnpm dev`
 - Visit `http://localhost:3000` in your browser to use the application.
 
 ### Useful documentation
@@ -22,8 +23,8 @@ Follow these instructions to set up the project on your local machine for develo
 - [Vuetify documentation](https://vuetifyjs.com/en/)
 
 ## Installed modules
-- [Nuxt 3](https://nuxt.com)
-- [Vuetify](https://vuetifyjs.com/en/)
+- [Nuxt 4](https://nuxt.com) - v4.2.1
+- [Vuetify 3](https://vuetifyjs.com/en/) - v3.10.11
 - [Nuxt i18n](https://i18n.nuxtjs.org/)
 - [Nuxt Google fonts](https://nuxt.com/modules/google-fonts)
 - [Nuxt Image](https://image.nuxt.com/)
@@ -32,19 +33,19 @@ Follow these instructions to set up the project on your local machine for develo
 - [Date fns](https://date-fns.org/)
 
 ## Available scripts
-- `yarn dev` - Start the application in development mode.
-- `yarn build` - Build the application for production.
-- `yarn start` - Start the application in production mode.
-- `yarn start:prod` - Start the application in production mode (Vite optimized).
-- `yarn generate` - Generate static files for the application.
-- `yarn reset` - Reset the application dependencies.
-- `yarn preview` - Preview the generated static files.
-- `yarn postinstall` - Run postinstall tasks.
-- `yarn unlighthouse` - Run Lighthouse tests for the application.
+- `pnpm dev` - Start the application in development mode.
+- `pnpm build` - Build the application for production.
+- `pnpm start` - Start the application in production mode.
+- `pnpm start:prod` - Start the application in production mode (Vite optimized).
+- `pnpm generate` - Generate static files for the application.
+- `pnpm reset` - Reset the application dependencies.
+- `pnpm preview` - Preview the generated static files.
+- `pnpm postinstall` - Run postinstall tasks.
+- `pnpm unlighthouse` - Run Lighthouse tests for the application.
 
 ## Requirements
-*  [Node.js](https://nodejs.org/en/download) 16.x.x or higher
-*  [Yarn](https://yarnpkg.com/en) 1.10.1 or higher
+*  [Node.js](https://nodejs.org/en/download) 18.x.x or higher
+*  [pnpm](https://pnpm.io/) 8.x.x or higher
 
 ## Contributing
 Contributions are welcome! If you want to contribute to this project, please follow these steps:

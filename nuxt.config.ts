@@ -77,6 +77,7 @@ export default defineNuxtConfig({
     /* module options */
     lazy: true,
     langDir: "locales",
+    restructureDir: false,
     strategy: 'no_prefix',
     locales: [
       {
@@ -91,6 +92,9 @@ export default defineNuxtConfig({
       useCookie: false
     },
     defaultLocale: "en-US",
+    bundle: {
+      optimizeTranslationDirective: false
+    }
   },
 
   pwa: {
