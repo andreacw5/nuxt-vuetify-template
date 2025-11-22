@@ -10,10 +10,10 @@
     "start": "nuxt start",
     "start:prod": "node .output/server/index.mjs",
     "generate": "nuxt generate",
-    "reset": "rm -rf .nuxt node_modules .output pnpm-lock.yaml && pnpm install",
+    "reset": "rm -rf .nuxt node_modules .output yarn.lock && yarn install",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "unlighthouse": "pnpx unlighthouse --site http://localhost:3000/"
+    "unlighthouse": "npx unlighthouse --site http://localhost:3000/"
   },
   "devDependencies": {
     "@iconify/vue": "^5.0.0",
@@ -29,6 +29,7 @@
     "@pinia/nuxt": "^0.11.3",
     "date-fns": "^4.1.0",
     "date-fns-tz": "^3.2.0",
+    "pinia": "^3.0.4",
     "vite-plugin-vuetify": "^2.0.4"
   }
 }

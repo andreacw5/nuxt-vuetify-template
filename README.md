@@ -33,19 +33,19 @@ Follow these instructions to set up the project on your local machine for develo
 - [Date fns](https://date-fns.org/)
 
 ## Available scripts
-- `pnpm dev` - Start the application in development mode.
-- `pnpm build` - Build the application for production.
-- `pnpm start` - Start the application in production mode.
-- `pnpm start:prod` - Start the application in production mode (Vite optimized).
-- `pnpm generate` - Generate static files for the application.
-- `pnpm reset` - Reset the application dependencies.
-- `pnpm preview` - Preview the generated static files.
-- `pnpm postinstall` - Run postinstall tasks.
-- `pnpm unlighthouse` - Run Lighthouse tests for the application.
+- `yarn dev` - Start the application in development mode.
+- `yarn build` - Build the application for production.
+- `yarn start` - Start the application in production mode.
+- `yarn start:prod` - Start the application in production mode (Vite optimized).
+- `yarn generate` - Generate static files for the application.
+- `yarn reset` - Reset the application dependencies.
+- `yarn preview` - Preview the generated static files.
+- `yarn postinstall` - Run postinstall tasks.
+- `yarn unlighthouse` - Run Lighthouse tests for the application.
 
 ## Requirements
 *  [Node.js](https://nodejs.org/en/download) 18.x.x or higher
-*  [pnpm](https://pnpm.io/) 8.x.x or higher
+*  [Yarn](https://yarnpkg.com/) 1.22.x or higher
 
 ## Contributing
 Contributions are welcome! If you want to contribute to this project, please follow these steps:
