@@ -39,8 +39,6 @@
         rounded="lg"
       />
     </v-list>
-
-
   </v-navigation-drawer>
 </template>
 

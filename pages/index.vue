@@ -39,7 +39,6 @@
     <v-row>
       <v-col v-for="feature in features" :key="feature.title" cols="12" md="4">
         <ui-card
-          :title="feature.title"
           :subtitle="feature.subtitle"
           :text="feature.description"
         >
